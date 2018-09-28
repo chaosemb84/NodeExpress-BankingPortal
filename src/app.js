@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+
 const express = require('express');
 
 const app = express();
@@ -17,4 +18,4 @@ app.get('/',(req,res)=>{
 );
 });
 
-app.listen(3000);
+app.listen(3000, () => console.log('Project Running on port 3000'));
