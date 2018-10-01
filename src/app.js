@@ -22,7 +22,7 @@ app.get('/',(req,res)=>{
 });
 
 app.use('/accounts', accountRoutes);
-app.use('/services', serviceRoutes);
+app.use('/services', servicesRoutes);
 
 app.get('/profile', (req,res)=>{
   res.render('profile', {user:users[0]});
