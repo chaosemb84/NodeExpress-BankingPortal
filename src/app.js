@@ -21,7 +21,7 @@ app.get('/',(req,res)=>{
   });
 });
 
-app.use('/accounts', accountRoutes);
+app.use('/account', accountRoutes);
 app.use('/services', servicesRoutes);
 
 app.get('/profile', (req,res)=>{
