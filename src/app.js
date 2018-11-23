@@ -17,7 +17,8 @@ app.use(express.urlencoded({extended:true}));
 app.get('/',(req,res)=>{
   res.render('index',
   {
-    title:'Account Summary', accounts
+    title:'Account Summary', 
+    accounts
   });
 });
 
